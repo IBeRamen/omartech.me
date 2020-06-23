@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+/** Page **/
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #060606;
+    color: #f8f8f8;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+[data-ty] {
+    overflow: auto;
+}
+
+#intro {
+    min-height: 100%;
+    padding-top: 5rem !important;
+}
+
+/** Navbar **/
+.navbar-dark .nav-item .nav-link:focus,
+.navbar-dark .nav-item .nav-link:active,
+.navbar-dark .nav-item:hover .nav-link {
+    color: #f8f8f8;
+    border-bottom: 2px solid #48cae4;
+    display: inline-block;
+}
+
+/** Intro **/
+.intro-heading {
+    font-family: 'Lobster', cursive;
+    font-size: 82px;
+}
+
+.intro-lead {
+    font-size: 52px;
+}
+
+.intro-text {
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+/** Utilities **/
+.btn-primary-outline {
+    color: #48cae4;
+    border: 1px solid #48cae4;
+    letter-spacing: 3px;
+}
+
+.btn-primary-outline:hover,
+.btn-primary-outline:focus,
+.btn-primary-outline:active {
+    color: #000000;
+    background-color: #48cae4;
+}
+
+.section-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #48cae4;
+}
+
+.bg-theme {
+    background-color: #48cae4;
+}
+
+.badge-pill {
+    padding-right: .2rem;
+}
+
+.border {
+    border-color: #48cae4 !important;
+}
+
+.arrow-down a {
+    padding: 1rem;
+}
+
+.arrow-down a {
+    text-align: center;
+    height: 3rem;
+    width: 1rem;
+    border: 1px solid #48cae4;
+    border-radius: 100%;
+    line-height: 2rem;
+    color: #f8f8f8;
+}
+
+.arrow-down a:hover {
+    background-color: #48cae4;
+}
+
+/** Timeline **/
+.card {
+    background-color: transparent;
+    border-color: #48cae4;
+}
+
+/** Footer **/
+.contact-section .social {
+    margin-top: 5rem;
+}
+
+.contact-section .social a:hover {
+    background-color: #48cae4;
+}
+
+.contact-section .social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    border: 1px solid #48cae4;
+    border-radius: 100%;
+    line-height: 3rem;
+    color: #f8f8f8;
+}
+
+.contact-section .social a:active {
+    background-color: #48cae4;
+}

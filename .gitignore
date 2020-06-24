@@ -59,3 +59,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Prod Deploy Script
+deployProd.sh
